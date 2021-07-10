@@ -145,7 +145,6 @@ body::-webkit-scrollbar {
     width: 100%;
     background-color: var(--secondry-color);
     z-index: 30;
-    transition: 0.3s;
   }
   .header nav ul a {
     padding: 56px !important;
