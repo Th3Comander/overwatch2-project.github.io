@@ -91,7 +91,7 @@ body::-webkit-scrollbar {
   .header nav i {
     display: none;
   }
-    .header .container nav input {
+    .header .container  input {
     display: none;
   }
 }
