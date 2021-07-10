@@ -84,8 +84,8 @@ body::-webkit-scrollbar {
   position: absolute;
   z-index: 3;
   opacity: 0;
-  width: 30px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
 }
 @media (min-width: 768px) {
   .header nav i {
@@ -133,24 +133,23 @@ body::-webkit-scrollbar {
   position: relative;
 }
 @media (max-width: 767px) {
-  .header .container .navbar {
+  .header nav ul {
     display: none;
   }
-  
-  .header .container input:checked + ul {
+  .header input:checked + ul {
     display: flex;
     flex-direction: column;
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
-    background-color: rgb(0 0 0 / 90%);
-    z-index: 2;
+    background-color: var(--secondry-color);
+    z-index: 30;
     transition: 0.3s;
   }
   .header nav ul a {
-    padding: 62px !important;
-    border-bottom: 1px solid;
+    padding: 56px !important;
+    color: white;
   }
 }
 .header img {
