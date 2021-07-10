@@ -112,7 +112,7 @@ body::-webkit-scrollbar {
   width: 0%;
   position: absolute;
   background-color: red;
-  bottom: -7px;
+  bottom: 0px;
   height: 1px;
   left: 0;
   transition: 0.3s;
